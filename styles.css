@@ -1,0 +1,752 @@
+@import url('https://fonts.cdnfonts.com/css/division-one');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    text-decoration: none;
+}
+
+.cabecalho{
+    background-color: #FEED00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Division One', sans-serif;
+    color: black;
+    height: auto;
+}
+.cabecalho .parte1{
+    font-size: 20px;
+}
+.cabecalho .parte1 a{
+    color: black;
+    margin-inline: 5px;
+}
+.cabecalho img{
+    max-width: 20%;
+    width: auto;
+}
+.cabecalho .parte2{
+    font-size: 20px;
+}
+.cabecalho .parte2 a{
+    color: black;
+    margin-inline: 5px;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/carro1.jpg);
+    background-position:center;
+    background-size: cover;
+    font-family: 'Gilroy-Bold', sans-serif;
+    padding-top: 6%;
+    flex-direction: column;
+    height: auto;
+}
+.principal h1{
+    font-size: 3.5rem;
+    color: white;
+}
+.principal h2{
+    font-size: 5rem;
+    color: white;
+}
+.principal span{
+    font-size: 5rem;
+    color: #ff1f57;
+}
+.coluna1{
+    flex-direction: row; 
+    display: flex;
+    text-align: center;
+    font-size: 0.8rem;  
+    width: 100%;
+    padding-top: 24%;
+}
+.a1{
+    width: 33.3%;
+}
+.a1 span{
+    font-size: 2.8rem;
+    text-shadow: 1px 2px 3px #000000;
+}
+.a1 h1{
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #000000;
+}
+.a2{
+    width: 33.3%;
+}
+.a2 span{
+    font-size: 2.8rem;
+    text-shadow: 1px 2px 3px #000000;
+}
+.a2 h1{
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #000000;
+}
+.a3{
+    width: 33.3%;
+}
+.a3 span{
+    font-size: 2.8rem;
+    text-shadow: 1px 2px 3px #000000;
+}
+.a3 h1{
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.conteudo{
+    background-color: #1C191F;
+}
+.conteudo .performance{
+    font-family: 'Gilroy-Bold', sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    padding-top: 5%;
+}
+.conteudo .performance span{
+    font-size: 4.5rem;
+    color: #ff1f57;
+}
+.conteudo .performance .sub{
+    padding-bottom: 3%;
+}
+.conteudo .performance .sub h1{
+    font-size: 1.8rem;
+    color: white;
+}
+.conteudo .performance .sub span{
+    font-size: 1.8rem;
+    color: #ff1f57;
+}
+
+.arquitetura{
+    flex-direction: row; 
+    display: flex;
+    text-align: center;
+    font-size: 1rem;  
+    width: 100%;
+    height: 100%;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+.arquitetura .img{
+    width: 48%;
+}
+.arquitetura .img img{
+    width: 90%;
+    height: 90%;
+}
+.arquitetura .texto{
+    color: white;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items:start;
+    margin-left: 4%;
+}
+.arquitetura .texto h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.arquitetura .texto h2{
+    font-size: 1.8rem;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: bold;
+}
+
+.aerodinamica{
+    flex-direction: row; 
+    display: flex;
+    text-align: center;
+    font-size: 1rem;  
+    width: 100%;
+    height: 100%;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-top: 5%;
+}
+.aerodinamica .img{
+    width: 48%;
+}
+.aerodinamica .img img{
+    width: 90%;
+    height: 90%;
+}
+.aerodinamica .texto{
+    color: white;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items:start;
+    margin-left: 4%;
+}
+.aerodinamica .texto h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.aerodinamica .texto h2{
+    font-size: 1.8rem;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: bold;
+}
+
+.design{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+.design h1{
+    font-size: 4.5rem;
+    color: #ff1f57;
+}
+.design h2{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1%;
+}
+.design img{
+    width: 70%;
+    height: 60%;
+}
+
+.style{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-top: 5%;
+}
+.style h1{
+    font-size: 4.5rem;
+    color: #ff1f57;
+}
+.style h2{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1%;
+}
+.imagem{
+    flex-direction: row; 
+    display: flex;
+    text-align: center;
+    font-size: 1rem;  
+    width: 100%;
+    height: 100%;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-top: 5%;
+}
+.imagem .img1{
+    width: 50%;
+    height: 50%;
+}
+.imagem .img2{
+    width: 50%;
+    height: 50%;
+}
+
+.info{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    font-family: 'Gilroy-Bold', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.fundo{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    width: 70%;
+    background-image: linear-gradient( #3a221aee, #3a221aee),url(assets/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 4%;
+}
+.fundo h1{
+    font-size: 4.5rem;
+    color: #62ee04;
+}
+.fundo h2{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 2%;
+}
+.fundo a{
+    background-color: #1C191F;
+    color: white;
+    font-size: 2rem;
+    padding: 1.5%;
+    border: 5px solid #ff1f57;
+    border-radius: 25px;
+}
+
+
+
+@media only screen and (max-width: 414px){
+    .cabecalho{
+        height: 30px;
+    }
+    .cabecalho .parte1{
+        font-size: 8px;
+    }
+    .cabecalho .img{
+        max-width: 50%;
+        width: auto;
+    }
+    .cabecalho .parte2{
+        font-size: 8px;
+    }
+
+    .principal h1{
+        font-size: 1.5rem;
+    }
+    .principal h2{
+        font-size: 1.9rem;
+    }
+    .principal span{
+        font-size: 1.9rem;
+    }
+
+    .coluna1 span{
+        font-size: 1.5rem;
+    }
+    .coluna1 h1{
+        font-size: 1rem;
+    }
+
+    .conteudo .performance span{
+        font-size: 2.2rem;
+        color: #ff1f57;
+    }
+    .conteudo .performance .sub h1{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .conteudo .performance .sub span{
+        font-size: 1.5rem;
+        color: #ff1f57;
+    }
+
+    .arquitetura{
+        flex-direction: column; 
+        font-family: 'Gilroy-Regular', sans-serif;
+        margin-top: 5%;
+    }
+    .arquitetura .img{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .arquitetura .img img{
+        width: 90%;
+        height: 90%;
+        align-items:center;
+    }
+    .arquitetura .texto{
+        color: white;
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        justify-content: center;
+        align-items:center;
+        margin-left: 4%;
+    }
+    .arquitetura .texto h1{
+        font-size: 1.6rem;
+        margin-bottom: 1%;
+        color: #e9eb74;
+    }
+    .arquitetura .texto h2{
+        font-size: 1.4rem;
+        font-family: 'Gilroy-Regular', sans-serif;
+    }
+
+    .aerodinamica{
+        flex-direction: column; 
+        font-family: 'Gilroy-Regular', sans-serif;
+        margin-top: 5%;
+    }
+    .aerodinamica .img{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .aerodinamica .img img{
+        width: 90%;
+        height: 90%;
+        align-items:center;
+    }
+    .aerodinamica .texto{
+        color: white;
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        justify-content: center;
+        align-items:center;
+        margin-left: 4%;
+    }
+    .aerodinamica .texto h1{
+        font-size: 1.6rem;
+        margin-bottom: 1%;
+        color: #e9eb74;
+    }
+    .aerodinamica .texto h2{
+        font-size: 1.4rem;
+        font-family: 'Gilroy-Regular', sans-serif;
+    }
+
+    .design{
+        margin-top: 5%;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+    .design h1{
+        font-size: 2.2rem;
+
+    }
+    .design h2{
+        color: white;
+        margin-bottom: 1%;
+        font-size: 1.5rem;
+    }
+    .design img{
+        width: 70%;
+        height: 60%;
+    }
+
+    .style{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-top: 5%;
+    }
+    .style h1{
+        font-size: 2.2rem;
+        color: #ff1f57;
+    }
+    .style h2{
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 1%;
+    }
+    .imagem{
+        flex-direction: column; 
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        font-size: 1rem;  
+        width: 100%;
+        height: 100%;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-top: 5%;
+    }
+    .imagem .img1{
+        width: 90%;
+        height: 50%;
+        border-radius: 0px;
+    }
+    .imagem .img2{
+        width: 90%;
+        height: 50%;
+        border-radius: 0px;
+    }
+    img{
+        border-radius: 25px;
+    }
+
+    .info{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        font-family: 'Gilroy-Bold', sans-serif;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    .fundo{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        width: 70%;
+        background-image: linear-gradient( #3a221aee, #3a221aee),url(assets/background.png);
+        background-position: center;
+        background-size: cover;
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 15px;
+    }
+    .fundo h1{
+        font-size: 1.6rem;
+        color: #62ee04;
+    }
+    .fundo h2{
+        font-size: 1.2rem;
+        color: white;
+        margin-bottom: 2%;
+    }
+    .fundo a{
+        background-color: #1C191F;
+        color: white;
+        font-size: 1.2rem;
+        padding: 1.5%;
+        border: 2px solid #ff1f57;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 1024px){
+    .cabecalho{
+        height: auto;
+    }
+    .cabecalho .parte1{
+        font-size: 10px;
+    }
+    .cabecalho .img{
+        max-width: 50%;
+        width: auto;
+    }
+    .cabecalho .parte2{
+        font-size: 10px;
+    }
+
+    .principal h1{
+        font-size: 1.8rem;
+    }
+    .principal h2{
+        font-size: 2.5rem;
+    }
+    .principal span{
+        font-size: 2.5rem;
+    }
+
+    .coluna1 span{
+        font-size: 1.8rem;
+    }
+    .coluna1 h1{
+        font-size: 1.2rem;
+    }
+
+    .conteudo .performance span{
+        font-size: 3rem;
+        color: #ff1f57;
+    }
+
+    .arquitetura{
+        flex-direction: column; 
+    }
+    .arquitetura .img{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .arquitetura .img img{
+        width: 90%;
+        height: 90%;
+        align-items:center;
+    }
+    .arquitetura .texto{
+        color: white;
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        align-items:center;
+        margin-left: 4%;
+    }
+    .arquitetura .texto h1{
+        font-size: 2.8rem;
+        font-weight: bold;
+        margin-bottom: 1%;
+        color: #e9eb74;
+    }
+    .arquitetura .texto h2{
+        font-size: 1.8rem;
+        font-family: 'Gilroy-Regular', sans-serif;
+        font-weight: bold;
+    }
+
+    .aerodinamica{
+        flex-direction: column; 
+    }
+    .aerodinamica .img{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .aerodinamica .img img{
+        width: 90%;
+        height: 90%;
+        align-items:center;
+    }
+    .aerodinamica .texto{
+        color: white;
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        align-items:center;
+        margin-left: 4%;
+    }
+    .aerodinamica .texto h1{
+        font-size: 2.8rem;
+        font-weight: bold;
+        margin-bottom: 1%;
+        color: #e9eb74;
+    }
+    .aerodinamica .texto h2{
+        font-size: 1.8rem;
+        font-family: 'Gilroy-Regular', sans-serif;
+        font-weight: bold;
+    }
+
+    .design{
+        margin-top: 5%;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+    .design h1{
+        font-size: 3rem;
+
+    }
+    .design h2{
+        color: white;
+        margin-bottom: 1%;
+        font-size: 1.8rem;
+    }
+    .design img{
+        width: 70%;
+        height: 60%;
+    }
+
+    .style{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-top: 5%;
+    }
+    .style h1{
+        font-size: 3rem;
+        color: #ff1f57;
+    }
+    .style h2{
+        font-size: 1.8rem;
+        color: white;
+        margin-bottom: 1%;
+    }
+    .imagem{
+        flex-direction: column; 
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        font-size: 1rem;  
+        width: 100%;
+        height: 100%;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-top: 5%;
+    }
+    .imagem .img1{
+        width: 90%;
+        height: 50%;
+        border-radius: 0px;
+    }
+    .imagem .img2{
+        width: 90%;
+        height: 50%;
+        border-radius: 0px;
+    }
+    img{
+        border-radius: 25px;
+    }
+
+    .fundo{
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        border-radius: 15px;
+        width: 70%;
+    }
+    .fundo h1{
+        font-size: 2rem;
+        color: #62ee04;
+    }
+    .fundo h2{
+        font-size: 1.4rem;
+        color: white;
+        margin-bottom: 2%;
+    }
+    .fundo a{
+        background-color: #1C191F;
+        color: white;
+        font-size: 1.6rem;
+        padding: 1.5%;
+        border: 2px solid #ff1f57;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .parte1 a:hover{
+        border-bottom: 1;
+        border-bottom-style: solid;
+        border-color: black;
+    }
+    .parte2 a:hover{
+        border-bottom: 1;
+        border-bottom-style: solid;
+        border-color: black;
+    }
+}
